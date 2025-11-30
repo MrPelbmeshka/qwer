@@ -1,20 +1,16 @@
 def calculator():
-    print("Калькулятор v2.0")
+    print("Калькулятор v1.0")
     
-    # Умножение двух чисел
+    # Сложение двух чисел
     a = float(input("Введите первое число: "))
     b = float(input("Введите второе число: "))
     
-    result = a * b
-    print(f"Результат умножения: {result}")
+    result = a + b
+    print(f"Результат сложения: {result}")
     return result
-
-def additional_function():
-    print("Дополнительная функция в ветке 2")
 
 def main():
     calculator()
-    additional_function()
 
 if __name__ == "__main__":
     main()
